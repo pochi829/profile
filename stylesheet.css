@@ -25,15 +25,22 @@ a {
 }
 
 header {
-  background-color: aliceblue;
-  height: 70px;
+  background-color: #333;
+  height: 60px;
   top: 0;
   width: 100%;
+  z-index: 10;
+  position: fixed;
+  opacity: 0.8;
 }
 
 .logo {
-  width: 150px;
-  margin: 10px 20px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }
 
 .about {
@@ -61,7 +68,7 @@ header {
 
 .btn {
   font-size: 20px;
-  color: white;
+  color: #333;
   padding: 15px 30px;
   border-radius: 15px;
   opacity: 0.8;
@@ -73,46 +80,19 @@ header {
 }
 
 .instagram {
-  background-color: #CF2E92;
+  background-color: aliceblue;
   margin-right: 20px;
 }
 
 .twitter {
-  background-color: #55acee;
+  background-color: aliceblue;
   margin-right: 20px;
 }
 
 .steam {
-  background-color: #162953;
+  background-color: aliceblue;
 }
 
 .fa {
   margin-right: 10px;
-}
-
-.title {
-  text-align: center;
-  color: #333333;
-  font-size: 40px;
-  margin-top: 20px; 
-}
-
-h3 {
-  color: #333333;
-  font-size: 20px;
-  padding: 5px 0 5px 15px;
-}
-
-.career-text {
-  color: #444;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  font-size: 15px;
-}
-
-.evidence {
-  width: 400px;
-  float: right;
-  margin-right: 35px;
-  margin-top: 70px;
 }

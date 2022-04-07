@@ -104,6 +104,11 @@ header {
   margin-right: 20px;
 }
 
+.twitch {
+  background-color: aliceblue;
+  margin-right: 20px;
+}
+
 .twitter {
   background-color: aliceblue;
   margin-right: 20px;
@@ -122,9 +127,7 @@ footer {
   height: 100px;
   width: 100%;
   text-align: center;
-}
-
-footer p {
-  color: aliceblue;
-  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

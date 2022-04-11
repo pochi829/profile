@@ -86,6 +86,10 @@ header {
   letter-spacing: 2px;
 }
 
+.url-box {
+  margin: 10px 0;
+}
+
 .btn-a {
   font-size: 20px;
   color: #333;

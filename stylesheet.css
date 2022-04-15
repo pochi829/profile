@@ -1,25 +1,8 @@
-/* 構築 */
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-}
+* {margin: 0; padding: 0;}
+body {font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;}
+li {list-style: none;}
+a {text-decoration: none;}
+.container {width: 100%;}
 
 /* header */
 
@@ -86,10 +69,6 @@ header {
   letter-spacing: 2px;
 }
 
-.url-box {
-  margin: 10px 0;
-}
-
 .btn-a {
   font-size: 20px;
   color: #333;
@@ -103,11 +82,6 @@ header {
   transition: all 0.7s;
 }
 
-.youtube {
-  background-color: aliceblue;
-  margin-right: 20px;
-}
-
 .twitch {
   background-color: aliceblue;
   margin-right: 20px;
@@ -118,12 +92,48 @@ header {
   margin-right: 20px;
 }
 
-.steam {
+.discord {
   background-color: aliceblue;
 }
 
 .fa {
   margin-right: 10px;
+}
+
+.fa-brands {
+  margin-right: 10px;
+}
+
+/* コンテンツ */
+
+.major {
+  margin: 50px 200px;
+  padding: 30px;
+  text-align: center;
+  background-color: lightgray;
+  color: #333;
+  font-size: 18px;
+}
+
+.major h2 {
+  margin-bottom: 20px;
+}
+
+.hobby {
+  margin: 0 200px 50px 200px;
+  padding: 30px;
+  text-align: center;
+  background-color: lightcoral ;
+  color: #333;
+  font-size: 18px;
+}
+
+.hobby h2 {
+  margin-bottom: 20px;
+}
+
+.game {
+  margin-top: 20px;
 }
 
 footer {

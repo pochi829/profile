@@ -1,0 +1,40 @@
+* {margin: 0; padding: 0;}
+body {font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;}
+li {list-style: none;}
+a {text-decoration: none;}
+
+.url-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+.btn {
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.fa {
+    margin-right: 20px;
+}
+
+.steam {
+    border-bottom: 1px solid aliceblue;
+}
+
+.twitch {
+    border-bottom: 1px solid aliceblue;
+}
+
+footer {
+    background-color: lightslategray;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

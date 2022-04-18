@@ -2,146 +2,29 @@
 body {font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;}
 li {list-style: none;}
 a {text-decoration: none;}
-.container {width: 100%;}
 
-/* header */
-
-header {
-  background-color: #333;
-  height: 60px;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-  position: fixed;
-  opacity: 0.8;
+.url-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #333;
+    margin: 20px 0;
 }
 
-.logo {
-  float: left;
-  width: 60px;
-  margin-left: 10px;
-}
-
-.logo:hover {
-  opacity: 0.5;
-}
-
-.header-nav {
-  float: right;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 15px;
-}
-
-.btn-b {
-  color: whitesmoke;
-  margin-right: 30px;
-}
-
-.btn-b:hover {
-  opacity: 0.5;
-}
-
-/* about */
-
-.about {
-  text-align: center;
-  background-image: url(background_img.jpeg);
-  padding-top: 150px;
-  height: 500px;
-  background-size: cover;
-}
-
-.about h1 {
-  color: white;
-  font-size: 50px;
-  opacity: 0.7;
-  letter-spacing: 5px;
-}
-
-.about p {
-  color: white;
-  font-size: 18px;
-  opacity: 0.7;
-  padding: 30px 0 100px 0;
-  letter-spacing: 2px;
-}
-
-.btn-a {
-  font-size: 20px;
-  color: #333;
-  padding: 15px 30px;
-  border-radius: 15px;
-  opacity: 0.8;
-}
-
-.btn-a:hover {
-  opacity: 1;
-  transition: all 0.7s;
-}
-
-.twitch {
-  background-color: aliceblue;
-  margin-right: 20px;
-}
-
-.twitter {
-  background-color: aliceblue;
-  margin-right: 20px;
-}
-
-.discord {
-  background-color: aliceblue;
+.btn {
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20px 0;
 }
 
 .fa {
-  margin-right: 10px;
+    margin-right: 20px;
 }
 
-.fa-brands {
-  margin-right: 10px;
+.steam {
+    border-bottom: 1px solid aliceblue;
 }
 
-/* コンテンツ */
-
-.major {
-  margin: 50px 200px;
-  padding: 30px;
-  text-align: center;
-  background-color: lightgray;
-  color: #333;
-  font-size: 18px;
-}
-
-.major h2 {
-  margin-bottom: 20px;
-}
-
-.hobby {
-  margin: 0 200px 50px 200px;
-  padding: 30px;
-  text-align: center;
-  background-color: lightcoral ;
-  color: #333;
-  font-size: 18px;
-}
-
-.hobby h2 {
-  margin-bottom: 20px;
-}
-
-.game {
-  margin-top: 20px;
-}
-
-footer {
-  background-color: lightslategray;
-  height: 100px;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.twitch {
+    border-bottom: 1px solid aliceblue;
 }

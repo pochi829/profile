@@ -17,8 +17,13 @@ header {
     margin-top: 20px;
 }
 
+.hobby {
+    background-color: #eaf4fc;
+    margin-bottom: 20px;
+}
+
 .playing-game {
-    background-color: #df514c;
+    background-color: #eaf4fc;
 }
 
 .title {
@@ -47,20 +52,13 @@ header {
 
 .btn {
     color: aliceblue;
+    border-bottom: 2px solid #555;
     font-size: 30px;
     padding: 20px 0;
 }
 
 .fa {
     margin-right: 20px;
-}
-
-.steam {
-    border-bottom: 2px solid #555; 
-}
-
-.twitch {
-    border-bottom: 2px solid #555;
 }
 
 footer {

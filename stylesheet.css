@@ -26,6 +26,10 @@ header {
     background-color: #eaf4fc;
 }
 
+.pc-specs {
+    background-color: #f5b1aa;
+}
+
 .title {
     text-align: center;
     padding: 20px 0 5px 0;

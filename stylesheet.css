@@ -47,6 +47,11 @@ header {
     color: #333;
 }
 
+.picture-pc {
+    width: 100%;
+    margin: 5px 0;
+}
+
 .url-box {
     display: flex;
     flex-direction: column;

@@ -17,6 +17,11 @@ header {
     margin-top: 20px;
 }
 
+.first {
+    background-color: #fafafa;
+    margin-bottom: 20px;
+}
+
 .hobby {
     background-color: #eaf4fc;
     margin-bottom: 20px;
@@ -28,7 +33,12 @@ header {
 }
 
 .pc-specs {
-    background-color: #f6bfbc;
+    background-color: #fde7e6;
+    margin-bottom: 20px;
+}
+
+.before-life {
+    background-color: #efe1ff;
 }
 
 .title {
@@ -47,9 +57,12 @@ header {
     color: #333;
 }
 
-.picture-pc {
-    width: 100%;
-    margin: 5px 0;
+.picture {
+    width: 80%;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .url-box {
